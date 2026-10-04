@@ -5,6 +5,9 @@ Railway Ticket Booking and Cancellation System is a simple C++ application devel
 
 code off application
 
+
+
+
 #include <iostream>
 using namespace std;
 
@@ -81,7 +84,8 @@ void cancel() {
     cout << "Ticket Cancelled Successfully\n";
 }
 
-int main() {
+int main()
+   {
     int ch;
 
     do {
